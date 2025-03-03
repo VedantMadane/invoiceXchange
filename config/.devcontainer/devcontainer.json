@@ -1,0 +1,9 @@
+{
+    "name": "Node.js with MongoDB",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:16", // Or a suitable Node.js image
+    "features": {
+      "ghcr.io/devcontainers/features/mongodb:1": {}
+    },
+    "forwardPorts": [27017]
+  }
+  
